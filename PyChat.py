@@ -15,7 +15,9 @@ while True:
     cv2.imshow('PyChat', frame)
     if cv2.waitKey(10) == ord('q'):
         break
-#
+
+# For just displaying image with a filter overlay over it ⬇️
+
 # bg = cv2.imread('snap_dead-main/jkr.png')
 # sunGlass = cv2.imread('snap_dead-main/star.png', cv2.IMREAD_UNCHANGED)
 # final_image = cvzone.overlayPNG(bg, sunGlass, [100, 100])
